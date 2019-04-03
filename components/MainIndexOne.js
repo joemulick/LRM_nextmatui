@@ -13,9 +13,9 @@ const styles = {
     flexGrow: 1,
   },
   gridTwoOuterContainer: {
-    background:'url(https://res.cloudinary.com/ddsihrmda/image/upload/v1554268839/Business-Woman-Transparent-BG-2_d1bhjm.png) no-repeat;',
+    background:'url(https://res.cloudinary.com/ddsihrmda/image/upload/v1554268839/Business-Woman-Transparent-BG-2_d1bhjm.png) no-repeat',
     backgroundSize: '100%',
-    height: '100%',
+    minHeight: '100vmin',
     }
 }
 
@@ -32,7 +32,7 @@ class MainIndexOne extends React.Component {
                 container
                 direction="row"
                 justify="flex-start"
-                alignItems="flex-start" 
+                alignItems="stretch" 
             >
 
                 <Grid item xs={12} sm={6}>
@@ -41,9 +41,7 @@ class MainIndexOne extends React.Component {
                     </Typography>
                 </Grid>
                 <Grid className={classes.gridTwoOuterContainer} item xs={12} sm={6} >
-                    <Typography>
-                        Grid 2
-                    </Typography>
+
                 </Grid>
             </Grid>
           </div>
