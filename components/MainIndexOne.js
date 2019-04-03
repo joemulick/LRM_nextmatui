@@ -7,11 +7,17 @@ import Grid from '@material-ui/core/Grid';
 
 
 
+
 const styles = {
   root: {
     flexGrow: 1,
   },
-};
+  gridTwoOuterContainer: {
+    background:'url(https://res.cloudinary.com/ddsihrmda/image/upload/v1554268839/Business-Woman-Transparent-BG-2_d1bhjm.png) no-repeat;',
+    backgroundSize: '100%',
+    height: '100%',
+    }
+}
 
 
 class MainIndexOne extends React.Component {
@@ -28,18 +34,17 @@ class MainIndexOne extends React.Component {
                 justify="flex-start"
                 alignItems="flex-start" 
             >
-            
+
                 <Grid item xs={12} sm={6}>
                     <Typography>
                         Grid 1
                     </Typography>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid className={classes.gridTwoOuterContainer} item xs={12} sm={6} >
                     <Typography>
                         Grid 2
                     </Typography>
                 </Grid>
-
             </Grid>
           </div>
       );
