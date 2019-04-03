@@ -18,7 +18,7 @@ class Index extends React.Component {
 
     return (
       <div className={classes.root}>
-        
+        Test
       </div>
     );
   }
