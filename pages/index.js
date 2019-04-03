@@ -3,6 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import MainIndexOne from '../components/MainIndexOne';
 // import Link from 'next/link';
 
 const styles = theme => ({
@@ -18,7 +19,7 @@ class Index extends React.Component {
 
     return (
       <div className={classes.root}>
-        Test
+        <MainIndexOne />
       </div>
     );
   }
