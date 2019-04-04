@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import MainIndexOne from '../components/MainIndexOne';
-// import Link from 'next/link';
+
 
 const styles = theme => ({
   root: {
